@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1><i>Registration form</i></h1>
+        <form>
+            <div> <label for="d">Name</label>
+             <input name="d" id="d" type="text" required>
+            </div>
+            <div> <label for="n">Age</label>
+             <input name="n" id="n" type="number" min="18" required>
+            </div>
+            <div> <label for="dob">Date of Birth</label>
+             <input name="dob" id="dob" type="date" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <br>
+                <input name="g" id="g" type="radio" required>
+                <label for="gender">Male</label>
+                <br>
+                <input name="g" id="g" type="radio" required>
+                <label for="gender">Female</label>
+                <br>
+                <input name="g" id="g" type="radio" required>
+                <label for="gender">Transgender</label>
+            </div>
+            <div>
+                <label for="b">Branch</label>
+                <select name="b" id="b" required>
+                  <option value="">Select branch</option>
+                  <option value="score">Score</option>
+                  <option value="scope">Scope</option>
+                  
+
+                </select>
+            </div>
+            <div>
+                    <label for="state">State</label>
+                <select name="s" id="s" required>
+                    <option value="">Select state</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                   <option value="Assam">Assam</option>
+                   <option value="Bihar">Bihar</option>
+               <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Goa">Goa</option>
+             <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+               <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jharkhand">Jharkhand</option>
+           <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+                </select>
+                
+            </div>
+             <div>
+                <label for="c">Class Timing</label>
+                <input name="c" id="c" type="checkbox" value="morning" >
+                <label for="c">morning</label>
+                <input name="c" id="c" type="checkbox" value="evening">
+                <label for="c">evening</label>
+            </div>
+             <div> <label for="ph">PhoneNumber</label>
+             <input name="ph" id="ph" type="number" maxlength="10" required>
+            </div>
+             <div> <label for="ph">Email</label>
+             <input name="ph" id="ph" type="email"  required>
+            </div>
+           
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
